@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 1 - JavaScript</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="card">
+        <div class="img-card">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="computador"
+          />
+        </div>
+        <h6>Laptop Gamer AMD</h6>
+        <p>Precio base: $<span class="precio-inicial"></span></p>
+
+        <p>
+          Cantidad:
+          <span class="cantidad">0</span>
+
+          <button
+            onclick="
+                const spanCantidadSumar= document.querySelector('.cantidad')
+                const valorSumar= Number(spanCantidadSumar.textContent)
+
+                const cantidadSumar = valorSumar + 1
+
+                spanCantidadSumar.innerHTML= cantidadSumar
+
+                const valorTotalSumar = precio * cantidadSumar
+
+                const spanTotalSumar= document.querySelector('.valor-total')
+
+                spanTotalSumar.innerHTML= valorTotalSumar
+                "
+          >
+            +
+          </button>
+
+          <button
+            onclick="
+                const spanCantidadRestar= document.querySelector('.cantidad')
+                const valorRestar = Number(spanCantidadRestar.textContent)
+
+                if (valorRestar === 0 ) return
+
+                const cantidadRestar = valorRestar - 1
+
+                spanCantidadRestar.innerHTML= cantidadRestar
+
+                const valorTotalRestar = precio * cantidadRestar
+
+                const spanTotalRestar= document.querySelector('.valor-total')
+
+                spanTotalRestar.innerHTML= valorTotalRestar
+                "
+          >
+            -
+          </button>
+        </p>
+      </div>
+    </section>
+
+    <div class="total-section">
+      <p>Total a pagar: $<span class="valor-total"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
